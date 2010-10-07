@@ -5,5 +5,5 @@ end
 # just trying to gemify it without breaking things.
 YP = NIS
 
-require 'lib/nis/version'
-require 'lib/nis/nis'
+require 'nis/version'
+require 'nis/nis'
