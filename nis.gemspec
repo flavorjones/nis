@@ -31,6 +31,7 @@ Gem::Specification.new do |s|
      "lib/nis.rb",
      "lib/nis/nis.so",
      "lib/nis/version.rb",
+     "nis.gemspec",
      "test/yp_all.rb",
      "test/yp_all2.rb",
      "test/yp_first.rb",
