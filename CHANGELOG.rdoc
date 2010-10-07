@@ -1,0 +1,9 @@
+= CHANGELOG
+
+= 0.1.1.1 (2010-10-07)
+
+* Ported to a gem by Mike Dalessio (mike.dalessio@gmail.com)
+
+= 0.1.1 (2001-06-21)
+
+* Birthday?

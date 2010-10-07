@@ -1,0 +1,38 @@
+= nis
+
+* http://raa.ruby-lang.org/project/ruby-nis
+* https://github.com/flavorjones/nis
+
+== DESCRIPTION:
+
+Provides an interface for NIS(YP) API.
+
+== USAGE
+
+YP Module (and aliased NIS Module)
+
+Constants:
+
+  * YPERR_....
+  * YPOP_....
+
+Module Functions:
+
+  * yp_all(domain, map, callback)
+  * yp_all(domain, map){|status, key, val| ... }
+  * key, val = yp_first(domain, map)
+  * next_key, next_val = yp_next(domain, map, key)
+  * val = yp_match(domain, map, key)
+  * yp_update(domain, map, ypop, key, val)
+
+== AUTHOR
+
+* Takaaki Tateishi (ttate@jaist.ac.jp)
+
+== SUPPORT
+
+Spotty. Unmaintained since 2002.
+
+== LICENSE:
+
+Copyright (C) 2001, Takaaki Tateishi (ttate@jaist.ac.jp)

@@ -19,16 +19,6 @@ rescue LoadError
   puts "Jeweler (or a dependency) not available. Install it with: gem install jeweler"
 end
 
-# HOE = Hoe.spec 'nokogiri' do
-#   developer 'Takaaki Tateishi', 'ttate@users.sourceforge.net'
-#   self.clean_globs = [
-#     'ext/nis/*.{o,so,bundle,a,log,dll}',
-#     'lib/nis/*.{o,so,bundle,a,log,dll}',
-#   ]
-#   self.spec_extras = { :extensions => ["ext/nis/extconf.rb"] }
-# end
-# Hoe.add_include_dirs '.'
-
 task 'ext/nis/Makefile' do
   Dir.chdir('ext/nis') do
     ruby "extconf.rb"
