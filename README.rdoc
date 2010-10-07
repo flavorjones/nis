@@ -1,7 +1,15 @@
 = nis
 
+This is a gem repackage of the code available at:
+
 * http://raa.ruby-lang.org/project/ruby-nis
 * https://github.com/flavorjones/nis
+
+== CHANGES
+
+Code is unchanged from 0.1.1 (which was available only as a tarball).
+
+Module NIS has been aliased to the module YP in an attempt to be a good Rubygem citizen.
 
 == DESCRIPTION:
 
@@ -31,7 +39,9 @@ Module Functions:
 
 == SUPPORT
 
-Spotty. Unmaintained since 2002.
+Unchanged since 2002.
+
+Gemified in 2010 by Mike Dalessio (@flavorjones).
 
 == LICENSE:
 
