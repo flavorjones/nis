@@ -1,0 +1,5 @@
+ext/nis/*.o
+ext/nis/*.so
+ext/nis/Makefile
+ext/nis/mkmf.log
+lib/nis/*.so
