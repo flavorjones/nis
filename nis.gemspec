@@ -5,7 +5,7 @@
 
 Gem::Specification.new do |s|
   s.name = %q{nis}
-  s.version = "0.1.1"
+  s.version = "0.1.1.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Takaaki Tateishi"]
@@ -14,14 +14,15 @@ Gem::Specification.new do |s|
   s.email = %q{ttate@users.sourceforge.net}
   s.extensions = ["ext/nis/extconf.rb"]
   s.extra_rdoc_files = [
-    "README",
-     "README.html"
+    "README.html",
+     "README.rdoc"
   ]
   s.files = [
     ".gitignore",
+     "CHANGELOG.rdoc",
      "MANIFEST",
-     "README",
      "README.html",
+     "README.rdoc",
      "Rakefile",
      "doc/NIS-HOWTO.html",
      "ext/nis/extconf.rb",
