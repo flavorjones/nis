@@ -1,0 +1,37 @@
+<html>
+<head><title>Ruby/NIS</title></head>
+<body>
+
+<center>
+ <h1>Ruby/NIS</h1>
+ Copyright (C) 2001, Takaaki Tateishi (ttate@jaist.ac.jp)
+</center>
+
+<hr>
+<h2>Description</h2>
+
+This module provides the module for NIS(YP) API.
+
+<hr>
+<h2>YP Module</h2>
+
+Constant:
+<ul>
+ <li>YPERR_....
+ <li>YPOP_....
+</ul>
+
+Module Functions:
+<ul>
+ <li>yp_all(domain, map, callback)
+ <li>yp_all(domain, map){|status, key, val| ... }
+ <li>key, val = yp_first(domain, map)
+ <li>next_key, next_val = yp_next(domain, map, key)
+ <li>val = yp_match(domain, map, key)
+ <li>yp_update(domain, map, ypop, key, val)
+</ul>
+
+<hr>
+
+</body>
+</html>

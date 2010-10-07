@@ -1,0 +1,12 @@
+doc/NIS-HOWTO.html
+test/yp_all.rb
+test/yp_all2.rb
+test/yp_first.rb
+test/yp_match.rb
+MANIFEST
+README
+README.html
+extconf.rb
+nis.c
+nis.h
+yp.c

@@ -1,0 +1,118 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+ <META NAME="GENERATOR" CONTENT="SGML-Tools 1.0.9">
+ <TITLE>The Linux NIS(YP)/NYS/NIS+ HOWTO</TITLE>
+ <LINK HREF="NIS-HOWTO-1.html" REL=next>
+
+
+</HEAD>
+<BODY>
+<A HREF="NIS-HOWTO-1.html">Next</A>
+Previous
+Contents
+<HR>
+<H1>The Linux NIS(YP)/NYS/NIS+ HOWTO</H1>
+
+<H2>Thorsten Kukuk</H2>v1.0, 09. March 1999
+<P><HR>
+<EM>
+<!--
+HOWTOs!NIS
+-->
+
+<!--
+HOWTOs!YP
+-->
+
+<!--
+HOWTOs!NYS
+-->
+
+<!--
+HOWTOs!NIS+
+-->
+
+This document describes how to configure Linux as NIS(YP) or NIS+ client
+and how to install as NIS server.</EM>
+<HR>
+<P>
+<H2><A NAME="toc1">1.</A> <A HREF="NIS-HOWTO-1.html">Introduction</A></H2>
+
+<UL>
+<LI><A HREF="NIS-HOWTO-1.html#ss1.1">1.1 New Versions of this Document</A>
+<LI><A HREF="NIS-HOWTO-1.html#ss1.2">1.2 Disclaimer</A>
+<LI><A HREF="NIS-HOWTO-1.html#ss1.3">1.3 Feedback and Corrections</A>
+<LI><A HREF="NIS-HOWTO-1.html#ss1.4">1.4 Acknowledgements</A>
+</UL>
+<P>
+<H2><A NAME="toc2">2.</A> <A HREF="NIS-HOWTO-2.html">Glossary and General Information</A></H2>
+
+<UL>
+<LI><A HREF="NIS-HOWTO-2.html#ss2.1">2.1 Glossary of Terms</A>
+<LI><A HREF="NIS-HOWTO-2.html#ss2.2">2.2 Some General Information</A>
+</UL>
+<P>
+<H2><A NAME="toc3">3.</A> <A HREF="NIS-HOWTO-3.html">NIS, NYS or NIS+ ?</A></H2>
+
+<UL>
+<LI><A HREF="NIS-HOWTO-3.html#ss3.1">3.1 libc 4/5 with traditional NIS or NYS ?</A>
+<LI><A HREF="NIS-HOWTO-3.html#ss3.2">3.2 glibc 2 and NIS/NIS+</A>
+<LI><A HREF="NIS-HOWTO-3.html#ss3.3">3.3 NIS or NIS+ ?</A>
+</UL>
+<P>
+<H2><A NAME="toc4">4.</A> <A HREF="NIS-HOWTO-4.html">How it works</A></H2>
+
+<UL>
+<LI><A HREF="NIS-HOWTO-4.html#ss4.1">4.1 How NIS works</A>
+<LI><A HREF="NIS-HOWTO-4.html#ss4.2">4.2 How NIS+ works</A>
+</UL>
+<P>
+<H2><A NAME="toc5">5.</A> <A HREF="NIS-HOWTO-5.html">The RPC Portmapper</A></H2>
+
+<P>
+<H2><A NAME="toc6">6.</A> <A HREF="NIS-HOWTO-6.html">What do you need to set up NIS?</A></H2>
+
+<UL>
+<LI><A HREF="NIS-HOWTO-6.html#ss6.1">6.1 Determine whether you are a Server, Slave or Client.</A>
+<LI><A HREF="NIS-HOWTO-6.html#ss6.2">6.2 The Software</A>
+<LI><A HREF="NIS-HOWTO-6.html#ss6.3">6.3 The ypbind daemon</A>
+<LI><A HREF="NIS-HOWTO-6.html#ss6.4">6.4 Setting up a NIS Client using Traditional NIS</A>
+<LI><A HREF="NIS-HOWTO-6.html#ss6.5">6.5 Setting up a NIS Client using NYS</A>
+<LI><A HREF="NIS-HOWTO-6.html#ss6.6">6.6 Setting up a NIS Client using glibc 2.x</A>
+<LI><A HREF="NIS-HOWTO-6.html#ss6.7">6.7 The nsswitch.conf File</A>
+<LI><A HREF="NIS-HOWTO-6.html#ss6.8">6.8 Shadow Passwords with NIS</A>
+</UL>
+<P>
+<H2><A NAME="toc7">7.</A> <A HREF="NIS-HOWTO-7.html">What do you need to set up NIS+ ?</A></H2>
+
+<UL>
+<LI><A HREF="NIS-HOWTO-7.html#ss7.1">7.1 The Software</A>
+<LI><A HREF="NIS-HOWTO-7.html#ss7.2">7.2 Setting up a NIS+ client</A>
+<LI><A HREF="NIS-HOWTO-7.html#ss7.3">7.3 NIS+, keylogin, login and PAM</A>
+<LI><A HREF="NIS-HOWTO-7.html#ss7.4">7.4 The nsswitch.conf File</A>
+</UL>
+<P>
+<H2><A NAME="toc8">8.</A> <A HREF="NIS-HOWTO-8.html">Setting up a NIS Server</A></H2>
+
+<UL>
+<LI><A HREF="NIS-HOWTO-8.html#ss8.1">8.1 The Server Program ypserv</A>
+<LI><A HREF="NIS-HOWTO-8.html#ss8.2">8.2 The Server Program yps</A>
+<LI><A HREF="NIS-HOWTO-8.html#ss8.3">8.3 The Program rpc.ypxfrd</A>
+<LI><A HREF="NIS-HOWTO-8.html#ss8.4">8.4 The Program rpc.yppasswdd</A>
+</UL>
+<P>
+<H2><A NAME="toc9">9.</A> <A HREF="NIS-HOWTO-9.html">Verifying the NIS/NYS Installation</A></H2>
+
+<P>
+<H2><A NAME="toc10">10.</A> <A HREF="NIS-HOWTO-10.html">Common Problems and Troubleshooting NIS</A></H2>
+
+<P>
+<H2><A NAME="toc11">11.</A> <A HREF="NIS-HOWTO-11.html">Frequently Asked Questions</A></H2>
+
+<HR>
+<A HREF="NIS-HOWTO-1.html">Next</A>
+Previous
+Contents
+</BODY>
+</HTML>
